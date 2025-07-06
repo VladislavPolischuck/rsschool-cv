@@ -27,6 +27,22 @@ My goal is to work online and build real web projects.
 - Strong motivation and ability to self-learn
 
 
+
+## Code Example
+
+**Simple** greeting function in JavaScript that returns a personalized hello message.
+
+
+```js
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+console.log(greet("World"));
+
+```
+
+
+
 ---
 
 
