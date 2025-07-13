@@ -3,9 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cv</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/favicon.ico" />
+    <title>Vladislav Polischuck CV</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
 </head>
-<body></body>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <header>
+        <!--Name and contacts-->
+        <div class="header-flex">
+            <img src="avatar.jpg" alt="avatar.jpg" class="avatar">
+            <div class="header-text">
+            <h1>Vladislav Polischuck</h1>
+                <div class="contacts">
+                    <h2>Contacts</h2>
+                    <p>Email:<a href="mailto:polischuckvlad@gmail.com"> polischuckvlad@gmail.com</a></p>
+                    <p>Telegram:<a href="https://t.me/VenumMun" target="_blank"> @VenumMun</a></p>
+                    <p>GitHub:<a href="https://github.com/VladislavPolischuck" target="_blank"> VladislavPolischuck</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Sections: Summary, Skills, Code, Education, Project, Languages-->
+         <section class="summary" id="summary">
+            <h2>Summary</h2>
+            <p>I am a motivated beginner who wants to become a Front-End Developer.</p>
+            <p>I study at RS School and learn everything from scratch.</p>
+            <p>My goal is to work online and build real web projects.</p>
+         </section>
+         <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Basic HTML</li>
+                <li>Markdown</li>
+                <li>Git & GitHub (basic usage)</li>
+                <li>CSS in progress </li>
+                <li>JavaScript in progress</li>
+                <li>VS Code</li>
+                <li>Self-learning & problem-solving</li>
+            </ul>
+         </section>
+         <section class="code" id="code">
+            <h2>Code Example</h2>
+            <pre><code class="language-javascript">
+            function greet(name) {
+             return `Hello, ${name}!`;
+            }
+            console.log(greet("World"));
+            </code></pre>
+         </section>
+         <section class="education" id="education">
+            <h2>Education</h2>
+            <p>Bilotserkivska Branch of Odesa State Agrarian University</p>
+            <p>Field of Study: Mechanical Measurements</p>
+         </section>
+         <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>RS School CV Projects</strong> - <a href="https://github.com/VladislavPolischuck/rsschool-cv" target="_blank"> View Repository</a>
+                </li>
+                <li>
+                    <strong>My Resume</strong> - <a href="https://VladislavPolischuck.github.io/rsschool-cv/" target="_blank">Live Page</a>
+                </li>
+            </ul>
+         </section>
+         <section class="languages" id="languages">
+            <h2>Languages</h2>
+            <ul>
+               <li>Ukrainian - Native</li>
+               <li>English - Beginner</li>
+               <li>Russian - Fluent</li>
+            </ul>
+         </section>
+    </main>
+    </div>
+    <footer>
+        <!-- GitHub, Year, course logo -->
+        <a href="https://github.com/VladislavPolischuck" target="_blank">
+                <img src="github-icon.svg" alt="GitHub icon" height="35">
+            </a>
+            <p><strong>2025</strong></p>
+        <a href="https://rs.school/" target="_blank">
+                <img src="rs-school-logo.svg" alt="RS School icon" height="35">
+        </a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
 </html>
